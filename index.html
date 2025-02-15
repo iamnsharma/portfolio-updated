@@ -46,7 +46,9 @@
         height: auto; /* Maintain aspect ratio */
         border-radius: 8px; /* Optional: Keep the rounded corners */
     }
-
+/* .badge-base{
+    padding-bottom: 50px;
+} */
 </style>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -93,12 +95,14 @@
 
     <!-- Page Header -->
     <header class="header" id="home">
+
         <div class="container">
+
             <div class="infos">
+                            
                 <h6 class="subtitle">hello,I'm</h6>
                 <h6 class="title">Aman Sharma</h6>
                 <p>Software Developer</p>
-
                 <div class="buttons pt-3">
                     <a href="https://www.linkedin.com/in/aman-sharma-271670230/" target="_blank" class="btn btn-primary rounded">HIRE ME</a>
                     <a href="./assets/iamnsharma.pdf" download class="btn btn-dark rounded">DOWNLOAD CV</a>
@@ -144,7 +148,7 @@
                 <div class="col-md-3">
                     <img src="assets/imgs/iamn.png" alt="" class="img-thumbnail mb-4">
                 </div>
-                <div class="pl-md-4 col-md-9">
+                <div class="pl-md-4 col-md-6">
                     <h6 class="title">Aman Sharma</h6>
                     <p class="subtitle">Software Developer</p>
                     <p>I am an experienced software developer with over 3.5 years of professional experience, known for strong communication and collaboration skills. I excel in leadership roles and can navigate challenging situations with positive decision-making. While I thrive in team environments, I am equally capable of managing projects independently.
@@ -152,6 +156,8 @@
                     <a href="./assets/iamnsharma.pdf" download class="btn btn-primary rounded mt-3">DOWNLOAD CV</a>
                   
                 </div>
+                <div class="pl-md-4 col-md-2 mt-3 badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="aman-sharma-271670230" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aman-sharma-271670230?trk=profile-badge"></a></div>
+
             </div>
         </div>
     </section>
@@ -682,6 +688,9 @@
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
+
+    <!-- linkedin -->
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>              
 
 </body>
 </html>
